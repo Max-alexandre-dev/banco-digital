@@ -1,12 +1,19 @@
 <script setup></script>
 
 
+
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <header>
+    <nav>
+      
+    </nav>
+  </header>
+
+  <main>
+    <router-view />          <!-- aqui as páginas aparecem -->
+  </main>
 </template>
 
-<style scoped></style>
+<style>
+
+</style>
